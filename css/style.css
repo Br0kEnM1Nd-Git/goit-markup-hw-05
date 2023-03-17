@@ -241,6 +241,14 @@ ul {
   margin-bottom: 16px;
 }
 
+.f-socials {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  justify-content: center;
+  margin-top: 8px;
+}
+
 .f-socials-link {
   display: block;
   width: 100%;
@@ -333,15 +341,18 @@ ul {
 }
 
 .oa-icon-container {
-  padding: 24px 0;
-  margin-bottom: 8px;
+  background-color: var(--CLOUD);
+  border-radius: 4px;
+  height: 112px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .our-advantages-icon {
   display: block;
   width: 64px;
   height: 64px;
-  margin: auto;
 }
 
 /* What Are We Doing */
@@ -411,8 +422,16 @@ ul {
   gap: 24px;
 }
 
+.customers-li {
+  width: calc((100%-120px) / 6);
+}
+
 .customers-link {
   display: block;
+  /* align-items: center;
+  justify-content: center; */
+  /* width: 100%;
+  height: 100%; */
   width: 168px;
   height: 88px;
   border: 1px solid var(--LIGHT_SLATE);
@@ -420,18 +439,20 @@ ul {
   padding: 20px 36px;
 }
 
-.customers-link:hover,
-.customers-link:focus,
-.customers-link:hover .customers-icon,
-.customers-link:focus .customers-icon {
-  fill: var(--OCEAN);
-  border-color: var(--OCEAN);
-}
-
 .customers-icon {
   width: 100%;
   height: 100%;
   fill: var(--customer-icon);
+}
+
+.customers-link:hover,
+.customers-link:focus {
+  border-color: var(--OCEAN);
+}
+
+.customers-link:hover .customers-icon,
+.customers-link:focus .customers-icon {
+  fill: var(--OCEAN);
 }
 /* -------------------- */
 
@@ -505,31 +526,7 @@ ul {
   padding: 32px 16px;
 }
 
-/* Home Work 05 */
-/* test 1 */
-/* .line.current-link {
-  display: block;
-  width: 100%;
-  height: 4px;
-  background-color: var(--OCEAN);
-  border-radius: 2px;
-  content: "";
-} */
-
-/* .line:hover .h-link {
-  padding-bottom: 20px;
-} */
-
-/* .line:hover::after {
-  display: block;
-  width: 100%;
-  height: 4px;
-  background-color: var(--OCEAN);
-  border-radius: 2px;
-  content: "";
-} */
-
-/* test 2 (better) */
+/* HW - 05 */
 
 .current-link.h-link {
   padding-bottom: 0;
