@@ -159,7 +159,7 @@ ul {
 /* Header */
 
 .header {
-  margin-bottom: -1px;
+  /* margin-bottom: -1px; */
   border-bottom: 1px solid var(--CORNFLOWER);
   background-color: var(--WHITE);
 }
@@ -528,7 +528,9 @@ ul {
 
 /* HW - 05 */
 
-.current-link.h-link {
+.
+
+/* .current-link.h-link {
   padding-bottom: 0;
 }
 
@@ -554,4 +556,19 @@ ul {
   border-radius: 2px;
   content: "";
   margin-top: 20px;
+} */
+
+/* Testik */
+
+/* .header {
+  transition-property: background-color, transform;
+  transition-duration: 500ms;
+  transition-timing-function: linear;
+  transition-delay: 0;
+  transform: translateY(-70%);
 }
+
+.header:hover {
+  background-color: rgba(15, 65, 139, 0.5);
+  transform: translateY(0);
+} */
