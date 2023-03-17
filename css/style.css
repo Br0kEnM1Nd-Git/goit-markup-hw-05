@@ -609,7 +609,8 @@ ul {
   visibility: visible;
   pointer-events: all;
   transform: scale(1);
-  transition: 250ms;
+  transition-property: scale opacity visibility;
+  transition-duration: 250ms;
 }
 
 .backdrop.is-hidden {
